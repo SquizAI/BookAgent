@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📚 BookAgent: Co-Creating the Future of Textbooks <img src="URL_TO_YOUR_BOOKAGENT_LOGO_OR_PLACEHOLDER" alt="BookAgent Logo" width="40"/>
+# 📚 BookAgent: Co-Creating the Future of Textbooks <img src="./assets/bookagent-logo.png" alt="BookAgent Logo" width="40"/>
 
 <!-- Typing SVG -->
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=3500&color=8C43EA&center=true&vCenter=true&width=500&lines=AI+Powered+Authoring;Multi-Agent+Collaboration;Pedagogically+Sound+Content)](https://git.io/typing-svg)
@@ -12,10 +12,10 @@
 <a href="https://nestjs.com/"><img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS"></a>
 <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
 <a href="https://cloud.google.com/"><img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="GCP"></a>
-<a href="https://cloud.google.com/vertex-ai/docs/generative-ai/learn/models#gemini-models"><img src="https://img.shields.io/badge/Gemini_AI-8954BF?style=for-the-badge&logo=googlebigquery&logoColor=white" alt="Gemini AI"></a> <!-- Using BigQuery logo as placeholder -->
+<a href="https://cloud.google.com/vertex-ai/docs/generative-ai/learn/models#gemini-models"><img src="https://img.shields.io/badge/Gemini_AI-8954BF?style=for-the-badge&logo=googlebigquery&logoColor=white" alt="Gemini AI"></a>
 
-<!-- Placeholder for a cool banner GIF -->
-<img src="URL_TO_YOUR_BANNER_GIF" alt="BookAgent Banner" width="100%">
+<!-- Banner GIF -->
+<img src="./assets/bookagent-banner.gif" alt="BookAgent Banner" width="100%">
 
 </div>
 
@@ -64,17 +64,17 @@
 ### Phase 1 Workflow
 
 ```mermaid
-graph LR
-    A[User Interface (React)] -- Prompt/Topic --> B(Director Agent);
-    B -- Request Research --> C(Research Agent);
-    C -- Formulate Query --> D{Gemini API};
-    D -- Research Results --> C;
-    C -- Compiled Research --> B;
-    B -- Request Draft --> E(Writer Agent);
-    E -- Research + Prompt --> D;
-    D -- Generated Draft --> E;
-    E -- Final Draft --> B;
-    B -- Display Result --> A;
+flowchart LR
+    A[User Interface\nReact] -->|Prompt/Topic| B(Director Agent)
+    B -->|Request Research| C(Research Agent)
+    C -->|Formulate Query| D{Gemini API}
+    D -->|Research Results| C
+    C -->|Compiled Research| B
+    B -->|Request Draft| E(Writer Agent)
+    E -->|Research + Prompt| D
+    D -->|Generated Draft| E
+    E -->|Final Draft| B
+    B -->|Display Result| A
 
     style B fill:#E0234E,stroke:#333,stroke-width:2px,color:#fff
     style C fill:#8954BF,stroke:#333,stroke-width:2px,color:#fff
@@ -147,7 +147,5 @@ Licensed under the MIT License. See `LICENSE` file (to be created).
 ---
 
 <div align="center">
-*An Innovation by SquizAI* ⚡
-<!-- Placeholder for GitHub stats if desired later -->
-<!-- <img src="https://github-readme-stats.vercel.app/api?username=SquizAI&repo=BookAgent&show_icons=true&count_private=true&theme=tokyonight&border_radius=10&hide_border=true" alt="Repo Stats"> -->
+<em>An Innovation by SquizAI</em> ⚡
 </div>
