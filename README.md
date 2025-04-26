@@ -53,28 +53,18 @@ BookAgent is currently in the **Phase 1 Planning** stage.
 
 For detailed planning, see the [Project Roadmap](./documentation/BookAgent_Roadmap.md) and [Technical Implementation](./documentation/technical_implementation.md).
 
-## 📄 Documentation
+## 📄 Core Documentation
 
-All project planning, design documents, and research notes can be found in the `/documentation` directory.
+Dive deeper into the project's design and planning:
 
-*   [Overall Roadmap](./documentation/BookAgent_Roadmap.md)
 *   [Technical Implementation Details](./documentation/technical_implementation.md)
 *   [Multi-Agent System Design](./documentation/book_development_system.md)
 *   [UI/UX Principles](./documentation/UI_UX_Principles.md)
 *   [Workflow & Processes](./documentation/workflow_and_processes.md)
-*   [Gemini API Plan](./documentation/gemini_api_development_plan.md)
+*   [Gemini API Development Plan](./documentation/gemini_api_development_plan.md)
+*   [Ethical Considerations](./documentation/Ethical_Considerations.md)
 
-## 🏁 Getting Started
-
-*(Setup instructions will be added here once the project scaffolding is complete)*
-
-1.  Clone the repository: `git clone https://github.com/SquizAI/BookAgent.git`
-2.  Navigate to the project directory: `cd BookAgent`
-3.  Install dependencies for backend: `cd backend && npm install`
-4.  Install dependencies for frontend: `cd ../frontend && npm install`
-5.  Configure environment variables (details TBD).
-6.  Run backend: `cd ../backend && npm run start:dev`
-7.  Run frontend: `cd ../frontend && npm start`
+*(Detailed setup and run instructions will be added once the application scaffolding is complete and functional)*
 
 ## 🤝 Contributing
 
